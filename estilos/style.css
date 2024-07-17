@@ -22,7 +22,11 @@
         font-family: 'Gontserrat-Regular';
         font-size: clamp(12px, 1em+1vw, 1.25em);
 
+        h1, h2, h3, h4{
+            font-family: 'Gontserrat-Regular';
+        }
         p{
+            font-family: 'Gontserrat-Regular';
             color: #1e1e1e;
         }
     }
