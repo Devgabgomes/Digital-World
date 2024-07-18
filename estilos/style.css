@@ -11,7 +11,7 @@
 
     input{
         cursor: pointer;
-        font-family: 'Gontserrat-Regular';
+        font-family: 'Gontserrat-Regular, Arial, Helvetica, sans-serif;
 
     }
     a{
@@ -21,7 +21,7 @@
         background-color: #e7e7e7;
         font-family: 'Gontserrat-Regular';
         font-size: clamp(12px, 1em+1vw, 1.25em);
-
+ 
         h1, h2, h3, h4{
             font-family: 'Gontserrat-Regular';
         }
@@ -586,7 +586,7 @@ section{
     flex-wrap: wrap;
     background-color: white;
     position: absolute;
-    width: 100%;
+    max-width: 1200px;
     align-items: center;
     justify-content: start;
 
@@ -629,7 +629,7 @@ section{
 .container08{
     display: flex;
     position: relative;
-    width: 100%;
+    width: 1200px;
     height: 100%;
     align-items: center;
     justify-content: center;
